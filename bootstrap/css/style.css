@@ -98,3 +98,22 @@ header{
     font-size: 16px;
     margin: 5px;
 }
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.linha-form input{
+    width: 700px;
+    margin: 2px 0;
+    
+}
+
+.linha-form textarea{
+    width: 700px;
+    height:200px;
+    margin: 2px 0;
+}
