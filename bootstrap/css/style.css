@@ -1,5 +1,11 @@
 *{
     font-size: 14px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 .logo{
     height: 120px;
@@ -63,6 +69,7 @@ header{
 .cheems img{
     height: 300px;
     width: 300px;
+    max-width: 100%;
 }
 .textinhocheems{
     text-align: start;
@@ -95,25 +102,73 @@ header{
 }
 .contato h1{
     text-align: center;
-    font-size: 16px;
+    font-size: 25px;
     margin: 5px;
+    padding: 5px 0;
 }
 
 .formulario{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
+
 .linha-form input{
-    width: 700px;
+    width: 100%;
+    width: 600px;
     margin: 2px 0;
+    height: 35px;
+    box-sizing: border-box;
     
 }
 
 .linha-form textarea{
-    width: 700px;
-    height:200px;
+    width: 100%;
+    width: 600px;
+    height:120px;
     margin: 2px 0;
+    resize: none;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .linha-form input,
+  .linha-form textarea {
+    max-width: 600px; /* não estoura a tela */
+    width: 100%;
+  }
+}
+
+.botao-enviar input{
+    width: 200px;
+}
+
+.botao-enviar{
+    display: flex;
+    justify-content: center;
+}
+/*-------------------------------COL 2 */
+.col-icones{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.icones-mensagem{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.icones{
+    font-size: 25px;
+}
+
+.icon-large-div{
+    margin-top: 10px;
+}
+
+.icon-large{
+    font-size: 36px;
+    padding: 0 10px 0 0;
 }
