@@ -28,3 +28,24 @@ header{
     max-width: 490px;
     padding: 6px 0px 6px 20px;
 }
+.imagem-banho{
+    padding: 60px 0 0 60px;
+}
+
+.texto-imagem-banho{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.saiba-mais{
+    padding: 2px;
+    height: 40px;
+    width: 180px;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 23px;
+    text-align: center;
+}
+
+/*==========================PET CARE===========================*/
