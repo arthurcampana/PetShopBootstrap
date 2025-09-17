@@ -29,12 +29,13 @@ header{
     padding: 6px 0px 6px 20px;
 }
 .imagem-banho{
-    padding: 60px 0 0 60px;
+    padding-top: 60px;
+    padding-left: 40px;
 }
 
 .texto-imagem-banho{
-    padding-top: 60px;
-    padding-left: 20px;
+    margin-top: 10px;
+    text-align: left;
 }
 
 .saiba-mais{
@@ -49,3 +50,14 @@ header{
 }
 
 /*==========================PET CARE===========================*/
+
+.pet-care{
+    padding:15px;
+    margin-top: 50px;
+    background-color: #ddd;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+}
+
