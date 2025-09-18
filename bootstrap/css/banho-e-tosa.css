@@ -2,6 +2,10 @@
     font-size: 14px;
     box-sizing: border-box;
 }
+input, textarea{
+    width: 100%;
+    margin-top: 5px;
+}
 body{
     margin: 0;
     padding: 0;
@@ -28,14 +32,18 @@ header{
     max-width: 490px;
     padding: 6px 0px 6px 20px;
 }
+
+.meio{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .imagem-banho{
     padding-top: 60px;
-    padding-left: 40px;
 }
 
 .texto-imagem-banho{
     margin-top: 10px;
-    text-align: left;
 }
 
 .saiba-mais{
@@ -58,6 +66,87 @@ header{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 1500px;
 }
 
+.vacina-full {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.vacina-dog img{
+    width: 100%;
+}
+
+.pet-care i{
+    font-size: 30px;
+    
+}
+
+@media(min-width:320px){
+    .saiba-mais{
+        margin-bottom: 15px;
+    }
+}
+
+/*========================================== FALE CONOSCO! FRONT END SILVEIRA! ============================================*/
+.contato{
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    padding-bottom: 10px;
+}
+.contato h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px 0;
+}
+
+
+.botao-enviar input{
+    width: 200px;
+    background-color: black;
+    color: #fff;
+}
+
+.botao-enviar{
+    display: flex;
+    justify-content: end;
+}
+/*-------------------------------COL 2 */
+.col-icones{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.icones-mensagem{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.icones{
+    font-size: 25px;
+}
+
+.icon-large-div{
+    margin-top: 10px;
+}
+
+.icon-large{
+    font-size: 36px;
+    padding: 0 10px 0 0;
+}
+
+/*=====================FOOTER========================*/
+.mapa{
+    padding: 0;
+}
+
+.final h2{
+    background-color: #ddd;
+    text-align: center;
+    font-size: 16px;
+    margin-top: -7px;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
